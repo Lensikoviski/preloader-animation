@@ -25,11 +25,7 @@
 
 }
 
-@-webkit-keyframes rotate-logo {
-    100%{
-        rotate: 90deg;
-    }
-}
+
 
 
 @keyframes short-container {
@@ -41,7 +37,7 @@
 
 @keyframes rotate-logo {
     100%{
-        rotate: 90deg;
+        transform: rotate(90deg);
     }
 }
 
@@ -52,20 +48,13 @@
     position: relative;
     top: 6px;
 }
-@-webkit-keyframes vertical-bar-anim{
-    100%{
-        margin-top: 351.8px;
-        rotate: 360deg;
-        transform: rotateY(180deg);  
-    }
-}
+
 
 @keyframes vertical-bar-anim {
  
     100%{
         margin-top: 351.8px;
-        rotate: 360deg;
-        transform: rotateY(180deg);  
+        transform: rotate(360deg);
     }
 }
 

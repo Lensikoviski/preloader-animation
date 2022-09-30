@@ -54,7 +54,9 @@
  
     100%{
         margin-top: 351.8px;
-        transform: rotate(360deg);
+        transform:rotateY(360deg);
+        rotate: 360deg;
+       
     }
 }
 

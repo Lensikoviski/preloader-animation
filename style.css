@@ -17,6 +17,7 @@
     justify-content: center;
     rotate: 0.00000001deg;
     margin-top: -60px;
+    position:relative;
     animation: rotate-logo 0.5s linear 2.5s forwards
     ,short-container 0s linear 2.5s forwards;
 

@@ -1,0 +1,150 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.wrapper{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.container{
+    height: 100vh;
+    width: 56px;
+    display:flex;
+    justify-content: center;
+    rotate: 0.00000001deg;
+    margin-top: -60px;
+    animation: rotate-logo 0.5s linear 2.5s forwards
+    ,short-container 0s linear 2.5s forwards;
+
+}
+
+@keyframes short-container {
+    100%{
+        height: 7vh;
+        margin-top: 290.8px;
+    }
+}
+
+@keyframes rotate-logo {
+    100%{
+        rotate: 90deg;
+    }
+}
+
+.drop-box{
+    width: 56px;
+    height: 55px;
+    border: 1px solid blue;
+    position: relative;
+    top: 6px;
+}
+
+@keyframes vertical-bar-anim {
+ 
+    100%{
+        margin-top: 351.8px;
+        rotate: 360deg;
+        transform: rotateY(180deg);  
+    }
+}
+
+@keyframes vertical-bar-anim1 {
+    
+    100%{
+        margin-top: 0px;
+      
+    }
+}
+
+
+/* left section */
+
+
+.blue{
+    width: 11.23px;
+    height: 10px;
+    background: blue;
+    position: absolute;
+    left: 5.1px;
+    top: 4.9px;
+    border-radius: 2px;
+    animation: vertical-bar-anim 1s ease-in 1.4s forwards
+    ,vertical-bar-anim1 0s linear 2.5s forwards;  
+    
+}
+
+
+.skyblue{
+    width: 11.23px;
+    height: 29px;
+    background: rgb(108 130 174);
+    position: absolute;
+    left: 5.1px;
+    top: 20px;
+    border-radius: 2px;
+    animation: vertical-bar-anim 1s ease-in 0.2s forwards 
+    ,vertical-bar-anim1 0s linear 2.5s forwards    ;  
+}
+
+/* middle section */
+
+.yellow{
+    position: absolute;
+    width: 11.23px;
+    height: 44px;
+    background-color: rgb(255 218 0);
+    top: 4.9px;
+    left: 22px;
+    border-radius: 2px;
+    animation: vertical-bar-anim 1s ease-in 0.9s forwards 
+    ,vertical-bar-anim1 0s linear 2.5s forwards  ;;   ;  
+}
+
+/* right section */
+
+.grey{
+    position: absolute;
+    width: 11.23px;
+    height: 8px;
+    top: 4.9px;
+    right: 5.1px;
+    background-color: grey;
+    border-radius: 2px;
+    animation: vertical-bar-anim 1s ease-in 1.3s forwards
+    ,vertical-bar-anim1 0s linear 2.5s forwards  ;  
+}
+
+
+.green{
+    position: absolute;
+    width: 11.23px;
+    height: 8px;
+    top: 18px;
+    right: 5.1px;
+    background-color:green;
+    border-radius: 2px;
+    animation: vertical-bar-anim 1s ease-in 0.7s forwards
+    ,vertical-bar-anim1 0s linear 2.5s forwards  ;    ;  
+}
+
+
+.red{
+    position: absolute;
+    width: 11.23px;
+    height: 18px;
+    right:5.1px;
+    top: 30.5px;
+    background: red;
+    border-radius: 2px;
+    animation: vertical-bar-anim 1s ease-in 0.3s forwards   
+    ,vertical-bar-anim1 0s linear 2.5s forwards  ; ;  
+}
+
+
+
+   
+

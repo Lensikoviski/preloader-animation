@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="./style.css">
+</head>
+<body onload="showsite()">
+    <div class="wrapper" id="logo">
+        <div class="container">         
+            <div class="blue  "></div>        
+            <div class="skyblue  "></div>       
+            <div class="yellow  "></div>       
+            <div class="grey  "></div>    
+            <div class="green  "></div>          
+            <div class="red  "></div>
+        </div>      
+    </div>
+    <div class="website" id="website" style="display: none;">
+        <h1>Tinkerhub</h1>
+    </div>
+    <script>
+        let logo = document.getElementById("logo")
+        let website = document.getElementById("website")
+        function showsite(){
+            setInterval(() => {
+                logo.style.display="none"
+                website.style.display="block"
+            },4500);
+        }
+    </script>
+</body>
+</html>

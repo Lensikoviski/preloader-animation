@@ -17,9 +17,11 @@
     justify-content: center;
     rotate: 0.00000001deg;
     margin-top: -60px;
-    position:relative;
+    position: relative;
     animation: rotate-logo 0.5s linear 2.5s forwards
     ,short-container 0s linear 2.5s forwards;
+    -webkit-animation: rotate-logo 0.5s linear 2.5s forwards
+    ,short-container 0s linear 2.5s forwards ;
 
 }
 
@@ -74,6 +76,8 @@
     top: 4.9px;
     border-radius: 2px;
     animation: vertical-bar-anim 1s ease-in 1.4s forwards
+    ,vertical-bar-anim1 0s linear 2.5s forwards;
+    -webkit-animation:  vertical-bar-anim 1s ease-in 1.4s forwards
     ,vertical-bar-anim1 0s linear 2.5s forwards;  
     
 }
@@ -88,7 +92,9 @@
     top: 20px;
     border-radius: 2px;
     animation: vertical-bar-anim 1s ease-in 0.2s forwards 
-    ,vertical-bar-anim1 0s linear 2.5s forwards    ;  
+    ,vertical-bar-anim1 0s linear 2.5s forwards;
+    -webkit-animation: vertical-bar-anim 1s ease-in 0.2s forwards 
+    ,vertical-bar-anim1 0s linear 2.5s forwards ;  
 }
 
 /* middle section */
@@ -102,7 +108,9 @@
     left: 22px;
     border-radius: 2px;
     animation: vertical-bar-anim 1s ease-in 0.9s forwards 
-    ,vertical-bar-anim1 0s linear 2.5s forwards  ;;   ;  
+    ,vertical-bar-anim1 0s linear 2.5s forwards  ;
+    -webkit-animation: vertical-bar-anim 1s ease-in 0.9s forwards 
+    ,vertical-bar-anim1 0s linear 2.5s forwards ;
 }
 
 /* right section */
@@ -116,7 +124,9 @@
     background-color: grey;
     border-radius: 2px;
     animation: vertical-bar-anim 1s ease-in 1.3s forwards
-    ,vertical-bar-anim1 0s linear 2.5s forwards  ;  
+    ,vertical-bar-anim1 0s linear 2.5s forwards  ; 
+    -webkit-animation:  vertical-bar-anim 1s ease-in 1.3s forwards
+    ,vertical-bar-anim1 0s linear 2.5s forwards;
 }
 
 
@@ -129,7 +139,9 @@
     background-color:green;
     border-radius: 2px;
     animation: vertical-bar-anim 1s ease-in 0.7s forwards
-    ,vertical-bar-anim1 0s linear 2.5s forwards  ;    ;  
+    ,vertical-bar-anim1 0s linear 2.5s forwards  ;
+    -webkit-animation:vertical-bar-anim 1s ease-in 0.7s forwards
+    ,vertical-bar-anim1 0s linear 2.5s forwards  ;
 }
 
 
@@ -142,7 +154,9 @@
     background: red;
     border-radius: 2px;
     animation: vertical-bar-anim 1s ease-in 0.3s forwards   
-    ,vertical-bar-anim1 0s linear 2.5s forwards  ; ;  
+    ,vertical-bar-anim1 0s linear 2.5s forwards  ;
+    -webkit-animation:vertical-bar-anim 1s ease-in 0.3s forwards   
+    ,vertical-bar-anim1 0s linear 2.5s forwards ;
 }
 
 
